@@ -1,0 +1,434 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+
+}
+/* for desktop */
+div.container-fluid {
+    width: 100%;
+    background-color: rgb(35, 61, 88);
+    max-width: 1200px;
+    height: 100vh;
+
+}
+
+
+
+article.curso{
+    overflow: hidden;
+    
+}
+div#titulo {
+    width: 40%;
+    float: left;
+    margin-top: 2vh;
+    color: white;
+
+}
+div#titulo h1{
+    width: 100%;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 2em;
+    color: white;
+}
+div#titulo h2{
+    width: 100%;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.5em;
+    color: white;
+}
+
+div#titulo p{
+    width: 100%;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 0.8em;
+    color: white;
+}
+
+div#titulo h3{
+    width: 100%;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.2em;
+    color: white;
+}
+div#titulo ul{
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    margin-left:5%;
+    display: block;
+    font-size: 0.9em;
+}
+
+article.curso video{
+    float: left;
+    width: 47%;
+    margin-top: 2vh;
+    margin-left: 2%;
+}
+div.enlace{
+
+    position: relative;
+    margin-left: 57%;
+    margin-top: 6vh;
+    width: 20%;
+    height: 8vh;
+    background-color: rgb(248, 147, 31);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: solid white 2px;
+    text-align: center;
+    padding-top: 0vh;
+    color: white ;
+    
+}
+
+div.enlace a{
+    color:white;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.2em;
+}
+div.enlace:hover{
+    transform: scale(1.2) ;
+    -webkit-transform: scale(1.2) ;
+    -moz-transform: scale(1.2) ;
+    -ms-transform: scale(1.2) ;
+    -o-transform: scale(1.2) ;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+    text-decoration: none;
+
+}
+
+div.precio{
+    position: relative;
+    width: 25%;
+    height: 6vh;
+    margin-left: 5%;
+    margin-top: -6vh;
+
+}
+
+div.precio h2{
+    position: relative;
+    width: 60%;
+    background-color:rgb(248, 147, 31);
+    margin-left: 0%;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1em;
+    color: white;
+    border: solid white 1px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+}
+div.circulo{
+    position: relative;
+    width: 30%;
+    background-color:rgb(248, 147, 31);
+    margin-right: 5%;
+    top: -2vh;
+    text-align: center;
+    border: solid white 1px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+div.circulo h3{
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.5em;
+    padding-top: 1.5vh;
+    color: white;
+}
+
+
+
+
+
+
+
+/* for mobile phone */
+
+
+
+
+@media (max-width:767px){
+
+   
+
+    article.curso{
+        overflow: hidden;
+        
+    }
+    div#titulo {
+        width: 100%;
+        float: left;
+        margin-top: 0vh;
+        color: white;
+    
+    }
+    div#titulo h1{
+        width: 100%;
+        text-align: center;
+        font-family: 'Comfortaa', cursive;
+        font-size: 1.5em;
+        color: white;
+    }
+    div#titulo h2{
+        width: 100%;
+        text-align: center;
+        font-family: 'Comfortaa', cursive;
+        font-size:1.2em; 
+        color: white;
+    }
+    
+    div#titulo p{
+        display:none;
+    }
+    
+    div#titulo h3{
+        display: none;
+        
+    }
+    div#titulo ul{
+        color: white;
+        font-family: 'Comfortaa', cursive;
+        margin-left:5%;
+        display: block;
+        font-size: 1em;
+    }
+    
+    article.curso video{
+        float: left;
+        width: 98%;
+        margin-top: 5vh;
+        margin-left: 0%;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+}
+    /* section button{
+        margin-left: 17%;
+        width: 65%;
+        height: 6vh;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        margin-top: 2vh;
+        font-size: 1.3em;
+    } */
+    /* section button a{
+        color: white;
+
+    } */
+
+    div.enlace {
+        width: 60%;
+        height: 6vh;
+        margin-top: 5vh;
+        margin-left: 20%;
+    }
+    
+    
+    
+    div.animation #particles-js{
+        display: none;
+
+    }
+
+    div.precio{
+        position: relative;
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 14vh;
+    
+    }
+    
+    div.precio h2{
+        width: 50%;
+        margin-left: 0%;
+        font-size: 1.1em;
+        
+}
+    div.circulo{
+        width: 35%;
+        background-color:rgb(248, 147, 31);
+        top: 0vh;
+        text-align: center;
+        font-family: 'Comfortaa', cursive;
+        color: white;
+        border: solid white 1px;
+        border-radius: 50%;
+        -webkit-border-radius: 45%;
+        -moz-border-radius: 45%;
+        -ms-border-radius: 45%;
+        -o-border-radius: 45%;
+    }
+
+
+} 
+
+
+
+
+
+/* for tablet */
+
+
+
+
+
+
+@media (max-width:1024px) and (min-width:768px){
+  nav#principal{
+    height: 8vh;
+    
+
+  }
+
+  div.animation #particles-js{
+    display: none;
+
+  }
+ 
+  article.curso{
+    overflow: hidden;
+    
+    }
+  div#titulo {
+    width: 100%;
+    float: left;
+    margin-top: 0vh;
+    color: white;
+
+  }   
+  div#titulo h1{
+    width: 100%;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 2em;
+    color: white;
+  }
+  div#titulo h2{
+    width: 100%;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size:1.6em; 
+    color: white;
+}
+
+  div#titulo p{
+    /*display:none;*/
+    text-align: center;
+    font-size:1.2em
+  }
+  h3{
+      display: none;
+  }
+
+
+div#titulo ul{
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    margin-left:12%;
+    display: block;
+    font-size: 1em;
+}
+
+article.curso video{
+    float: left;
+    width: 80%;
+    margin-top: 3vh;
+    margin-left: 10%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+section button{
+    margin-left: 32%;
+    width: 35%;
+    height: 5vh;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-top: 2vh;
+    font-size: 1.6em;
+    
+    
+}
+section button a{
+    position: relative;
+    color:white;
+       
+}
+
+div.precio{
+    position: relative;
+    width: 80%;
+    height: 15vh;
+    margin-left: 10%;
+    margin-top: 10vh;
+    
+
+}
+
+div.precio h2{
+    width: 20%;
+    margin-left: 20%;
+    top: 4vh;
+    height: 4vh;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.4em;
+    padding-top: 1vh;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+div.circulo{
+    
+    width: 100px;
+    height: 100px;
+    margin-right: 20%;
+    top: 2vh;
+    
+    
+}
+
+div.circulo h3{
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.5em;
+    padding-top: 1.5vh;
+    color: white;
+}
+
+div.enlace {
+    width: 30%;
+    height: 5vh;
+    margin-top: 5vh;
+    margin-left: 35%;
+}
+
+}

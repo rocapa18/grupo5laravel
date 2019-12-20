@@ -1,0 +1,161 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+
+}
+div.container-fluid {
+    background-color: rgb(35, 61, 88);
+    max-width: 1200px;
+    height: 120vh;
+}
+
+
+
+li#faq {
+    color: rgb(248, 147, 31);
+    text-align: left;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+}
+p {
+  color: #FFF;
+  text-align: left;
+}
+
+div.faq{
+    position: relative;
+    width: 100%;
+    margin-top: 6vh;
+    
+}
+h1{
+
+    font-family: 'Comfortaa', cursive;
+    font-size: 2em;
+    width: 80%;
+    margin-top: -4vh;
+    margin-left: 10%;
+    text-align: left;
+   
+}
+
+.titulo{
+    color: #FFF;
+    text-align: center;
+}
+
+form {
+    position: relative;
+    color: #FFF;
+    width: 80%;
+    left: 0%;
+}
+
+.lineahorizontal{
+    border-width: 1px;
+    border-color: #FFF;
+    width: 80%;
+    margin-top: 0vh;
+}
+
+div.animation #particles-js{
+    width: 95%;
+    height: 100vh;
+    margin-left: 0%;
+	min-height: 300px;
+	position: absolute;
+}
+
+
+
+/* PHONE */
+
+@media (max-width:767px){
+    div.container-fluid {
+        background-color: rgb(35, 61, 88);
+        max-width: 1200px;
+        height: 200vh;
+    }
+
+    
+    div.animation #particles-js{
+          display: none;
+  }
+  .mainperfil{
+    width: 100%;
+    margin-top: 0vh;
+
+  }
+  
+  .mainperfil h1{
+    
+    font-size: 1.8em;
+    width: 70%;
+    margin-top: 0vh;
+}
+
+.titulo{
+    color: #FFF;
+    text-align: center;
+}
+
+
+li#faq {
+    position: relative;
+    color: rgb(248, 147, 31);
+    text-align: left;
+    font-family: 'aller';
+    font-weight: bold;
+    width: 98%;
+    }
+p {
+    color: #FFF;
+    text-align: left;
+    margin: 0px;
+    width: 98%;
+    }
+}
+
+/* TABLET */
+
+@media (max-width:991px) and (min-width:768px){
+    
+    
+    div.animation #particles-js{
+        display: none;
+
+    }
+
+
+    
+    .mainperfil{
+       margin-top: 0vh;
+        
+    }
+
+    
+    div.form-group{
+        margin-top: 10vh;
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+
+    
+    div.container-fluid {
+        background-color: rgb(35, 61, 88);
+        max-width: 1200px;
+        height: 120vh;
+    }
+
+    #faq {
+        color: rgb(248, 147, 31);
+        text-align: center;
+        font-family: 'aller';
+        font-weight: bold;
+    }
+    p {
+      color: #FFF;
+      text-align: left;
+    }
+    }

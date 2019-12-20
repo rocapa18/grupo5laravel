@@ -1,0 +1,55 @@
+body{
+
+    background-color: rgb(35, 61, 88);
+}
+
+
+a.navbar-brand{
+
+    color: white !important;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.6em;
+    
+    border-radius: 10px; 
+
+}
+div.container{
+
+    background-color: rgb(35, 61, 88);
+    border-radius: 10px;
+}
+a#navbarDropdown{
+
+color: white;
+font-family: 'Comfortaa', cursive;
+font-size: 1.2em;
+} 
+button.btn{
+    background-color: rgb(248, 147, 31);
+    font-family: 'Comfortaa', cursive;
+    font-size: 1em;
+
+}
+button.btn a{
+
+color: white;
+
+
+}
+
+
+
+div.form-group label{
+    font-family: 'Comfortaa', cursive;
+    font-size: 1em;
+    color:rgb(248, 147, 31);
+    font-weight: 600;
+
+}
+div.card-header{
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.6em;
+    color:rgb(248, 147, 31);
+    font-weight: 600;
+
+}

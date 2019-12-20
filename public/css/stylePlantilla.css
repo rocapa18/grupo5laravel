@@ -1,0 +1,356 @@
+*{
+     margin: 0 auto;
+     box-sizing: border-box;
+     
+     
+ }
+ 
+
+  
+ div.container-fluid {
+     background-color: rgb(35, 61, 88);
+     max-width: 1200px;
+     /* height: 120vh; */
+     
+     
+ }
+ 
+ ul.nav-pills li{
+     display: none;
+ }
+ 
+ nav#principal{
+     overflow: hidden;
+     width: 100%;
+     height: 15vh;
+    
+ }
+ 
+ nav#principal img{
+     float: left;
+     position: relative;
+     width: 4%;
+     top: 1vh;
+     left: 1%;
+ }
+ nav#principal h2{
+     float: left;
+     position: relative;
+     width: 15%;
+     top: 3vh;
+     left: 2%;
+     color: white;
+     font-family: 'Comfortaa', cursive;
+     font-size: 1.2em;
+ 
+ }
+ nav#principal ul{
+     display: flex;
+     margin-top: 3vh;
+     justify-content: space-around;
+     /* overflow: hidden;
+     float: left;
+     left: 28%;
+     top: 3vh;
+     width: 55%;
+     position: relative;
+     right: 1%; */
+     
+     
+ }
+ 
+ nav#principal ul li{
+     
+     /* float: left; */
+     /* left: 60%;
+     width: 14%;
+     margin-left:2%;  */
+     list-style: none;
+     
+ } 
+ nav#principal ul li a{
+     
+     /* padding-left: 0%; */
+     color: white;
+     /* text-align: center; */
+     font-family: 'Comfortaa', cursive;
+     font-size: 1em;
+ 
+ }
+ nav#principal ul li a:hover{
+     color: red;
+ 
+ }
+ 
+ nav#principal ul li#faq{
+     padding-left: 4%;
+ 
+ }
+ div.animation #particles-js{
+     width: 1170px;
+      /*height: 100vh;*/
+      min-height: 300px;
+      position: absolute;
+ 
+ }
+ #redesSociales{
+
+    height: 15vh;
+    
+    margin-top: -2vh;
+ }
+
+
+ #redesSociales ul{
+     width: 120%;
+     overflow: hidden;
+     margin-bottom: 2vh;
+     padding-left: 41%;
+     padding-top: 2%;
+     
+ }
+ #redesSociales ul li{
+ 
+     float: left;
+     list-style:none;
+     width: 4%;
+ }
+ 
+ #redesSociales ul li a i{
+     position: relative;
+     color: white;
+     font-size: 1.7em;
+     margin-left: 1%;
+ }
+ 
+ #redesSociales ul li a i:hover{
+     transform: scale(1.4);
+     -webkit-transform: scale(1.4);
+     -moz-transform: scale(1.4);
+     -ms-transform: scale(1.4);
+     -o-transform: scale(1.4);
+     transition: 0.6s;
+     -webkit-transition: 0.6s;
+     -moz-transition: 0.6s;
+     -ms-transition: 0.6s;
+     -o-transition: 0.6s;
+ }
+ div#copy{
+     position: relative;
+     margin-top: 2vh;
+     bottom: 0vh;
+     left: 41.5%;
+ 
+ }
+ 
+ div#copy h4{
+     color: white;
+     font-family: 'Comfortaa', cursive;
+     font-size: 0.8em;
+ 
+ }
+
+
+
+
+
+/****Phone*****/
+
+
+ 
+ @media (max-width:767px){
+
+ nav#principal{
+    overflow: hidden;
+    width: 100%;
+    height: 8vh;
+    
+}
+
+nav#principal img{
+    float: left;
+    position: relative;
+    width: 10%;
+    top: 0vh;
+    left: 1%;
+}
+
+nav#principal h2{
+    float: left;
+    position: relative;
+    width: 32%;
+    top: 1vh;
+    left: 4%;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1em;
+}
+
+nav#principal ul{
+    display: none;
+}
+
+ul.nav-pills li{
+    display: block;
+    position: relative;
+    background-color: rgb(248, 147, 31);
+    margin-right: 8%;
+    margin-top: 2vh;
+    width: 30%;
+    height: 5vh;
+    border-radius: 15px;
+    -webkit-border-radius: 15px    ;
+    -moz-border-radius: 15px    ;
+    -ms-border-radius: 15px    ;
+    -o-border-radius: 15px    ;
+}
+ul.nav-pills li a{
+    color: white;
+    text-align: left;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.1em;
+    
+}
+
+div.dropdown-menu{
+    background-color: rgb(35, 61, 88);
+
+}
+div.animation #particles-js{
+    display: none;
+
+}
+div#redesSociales{
+    margin-left: 0%;
+
+}
+div#redesSociales ul{
+    
+    margin-left: 12%;
+    overflow: hidden;
+    padding-left: 0%;
+    padding-top: 4vh;
+    
+
+}
+
+div#redesSociales ul li{
+
+    float: left;
+    list-style:none;
+    width: 11%;
+    
+}
+    
+div#redesSociales ul li a i{
+    position: relative;
+    color: white;
+    font-size: 1.7em;
+    margin-left: 1%;
+}
+div#copy{
+    position: relative;
+    margin-top: 2vh;
+    bottom: 0vh;
+    left: 12%;
+
+}
+
+div#copy h4{
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1em;
+
+}
+}
+
+/*****Tablet*****/
+
+
+@media (max-width:991px) and (min-width:768px){
+
+    nav#principal img{
+        width: 40px;
+        top: 2vh;
+        
+       
+    }
+    div.animation #particles-js{
+        display: none;
+
+    }
+
+
+
+    nav#principal h2{
+        width: 25%;
+        top: 3vh;
+        font-size: 1.2em;
+        margin-left: 0%;
+    
+    }
+    
+    nav#principal ul{
+        width: 75%;
+        margin-right: 2%;
+
+    } 
+
+    nav#principal ul li{
+        width: 10%;
+
+    }
+    nav#principal ul li a{
+
+        font-size: 0.8em;
+
+    }
+
+    div#redesSociales{
+        margin-left: 0%;
+    
+    }
+    div#redesSociales ul{
+        
+        margin-left: 25%;
+        overflow: hidden;
+        padding-left: 0%;
+        padding-top: 4vh;
+        
+    
+    }
+    
+    div#redesSociales ul li{
+    
+        float: left;
+        list-style:none;
+        width: 8%;
+        
+    }
+        
+    div#redesSociales ul li a i{
+        position: relative;
+        color: white;
+        font-size: 1.7em;
+        margin-left: 1%;
+    }
+    div#copy{
+        position: relative;
+        margin-top: 2vh;
+        bottom: 0vh;
+        left: 34%;
+    
+    }
+    
+    div#copy h4{
+        color: white;
+        font-family: 'Comfortaa', cursive;
+        font-size: 1em;
+    
+    }
+
+
+
+}
+
+
